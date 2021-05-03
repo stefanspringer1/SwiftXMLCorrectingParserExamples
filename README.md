@@ -1,6 +1,6 @@
 # SwiftXMLCorrectingParserExamples
 
-Executable Swift package with examples of using the XMLParser from Swift Foundation, but in a way that "corrects" the errors encountered in the repository [SwiftXMLParserExamples](https://github.com/stefanspringer1/SwiftXMLParserExamples) when using it. Note: When you are using more simple types of XML documents, you may notz need the "trick" presented herte.
+This is an xecutable Swift package with examples of using the XMLParser from Swift Foundation, but in a way that "corrects" the errors encountered in the repository [SwiftXMLParserExamples](https://github.com/stefanspringer1/SwiftXMLParserExamples) when using it. Note: When you are using more simple types of XML documents, you may notz need the "trick" presented herte.
 
 # Usage
 
