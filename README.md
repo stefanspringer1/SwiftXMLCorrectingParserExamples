@@ -25,6 +25,6 @@ Of course, there are some shortcomings using this methods, at least in the simpl
 - We suppose that that there are no other entities named `temporaryEntityName...`.
 - We suppose that the texts to be replaced (e.g. `&ent1;` in the sample) do not occur in places where they do not represent an entity (e.g. in CDATA sections).
 - We suppose that it sensible to write the temporary document with the added file name extension besides the original document. It it also not deleted afterwards.
-- We do not know what would have to be changed here if an XML schema (e.g. DTD) is present and the Swift XMLParser validates against that scheme or if our "trick" is then even still necessary.
+- We do not know what would have to be changed here if an XML schema (e.g. DTD) is present and the Swift XMLParser validates against that scheme or even if our "trick" is then still necessary.
 
 Of course, some of those points could easily be improved.
