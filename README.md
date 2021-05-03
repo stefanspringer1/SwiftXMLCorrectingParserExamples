@@ -10,7 +10,7 @@ The XML samples used are in the subdirectory `Samples`.
 
 # What It Does
 
-See [SwiftXMLParserExamples](https://github.com/stefanspringer1/SwiftXMLParserExamples) what problems we encountered when parsing XML using XML Parser from SwiftFoundation. Hopefully, this will get resolved in the library _or we just did something wrong_ (please tell us if you know). But for the time being, here is some kind of a solution. We proceed as follows:
+See [SwiftXMLParserExamples](https://github.com/stefanspringer1/SwiftXMLParserExamples) what problems we encountered when parsing XML using XML Parser from SwiftFoundation. Hopefully, this will get resolved in the library _or we just did something wrong (please tell us if you know)._ But for the time being, here is some kind of a solution. We proceed as follows:
 
 1. We read the XML document just until the start of the first element while reading all entity declarations.
 2. We make a list of replacements to be applied for all of those entities in the document where they are used, e.g. in the sample we would like to replace `&ent1;` by `&temporaryEntityName1;`.
