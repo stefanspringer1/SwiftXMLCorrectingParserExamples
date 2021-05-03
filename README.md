@@ -28,4 +28,4 @@ Of course, there are some shortcomings using this methods, at least in the simpl
 - The textual replacements are done step by step for each of the replacements, one at a time. There ought to be a more efficient algorithm.
 - We do not know what would have to be changed here if an XML schema (e.g. DTD) is present and the Swift XMLParser validates against that scheme or even if our "trick" is then still necessary.
 
-Of course, some of those points could easily be improved.
+Of course, some of these points could easily be improved.
