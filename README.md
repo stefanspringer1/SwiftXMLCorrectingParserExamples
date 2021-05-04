@@ -21,7 +21,7 @@ See [SwiftXMLParserExamples](https://github.com/stefanspringer1/SwiftXMLParserEx
 
 Of course, there are some shortcomings using this methods, at least in the simple implementation as presented here:
 
-- We suppose that the XML document is encoded in UTF-8.
+- We suppose that the XML document is encoded in UTF-8 (it would be nice to get the encoding from the first parsing, but see [SR-14586](https://bugs.swift.org/browse/SR-14586)).
 - We suppose that that there are no other entities named `temporaryEntityName...`.
 - We suppose that the texts to be replaced (e.g. `&ent1;` in the sample) do not occur in places where they do not represent an entity (e.g. in CDATA sections).
 - We suppose that it sensible to write the temporary document with the added file name extension besides the original document. It it also not deleted afterwards.
